@@ -1,18 +1,18 @@
 use strict;
 use warnings;
 package Task::Tapper::Installer;
-# git description: b339952cba4a4287921d8229e5672ce0b0f534df
+# git description: v0.001-3-g801a649
 
 BEGIN {
-  $Task::Tapper::Installer::AUTHORITY = 'cpan:AMD';
+  $Task::Tapper::Installer::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Task::Tapper::Installer::VERSION = '0.001';
+  $Task::Tapper::Installer::VERSION = '0.002';
 }
 # ABSTRACT: Tapper - dependencies for machine installer
 
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -21,7 +21,11 @@ Task::Tapper::Installer - Tapper - dependencies for machine installer
 
 =head1 VERSION
 
-version 0.001
+version 0.002
+
+=head1 DESCRIPTION
+
+This task installs Tapper's dependencies for the machine installer.
 
 =head1 TASK CONTENTS
 
@@ -46,4 +50,3 @@ This is free software, licensed under:
   The (two-clause) FreeBSD License
 
 =cut
-
